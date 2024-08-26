@@ -15,7 +15,6 @@ export default function Home() {
           display: 'flex',
           marginTop: '32px',
           gap: '32px',
-          border: '1px solid red',
         }}>
         <div style={{ flex: 1, border: '1px solid orange' }}>
           <h2>
@@ -28,7 +27,7 @@ export default function Home() {
           <Zustand />
         </div>
 
-        <div style={{ flex: 1, border: '1px solid yellow' }}>
+        <div style={{ flex: 1 }}>
           <h2>
             <a href='https://jotai.org/' target='_blank'>
               Jotai
